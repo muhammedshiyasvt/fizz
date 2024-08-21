@@ -1,0 +1,131 @@
+
+
+.nav-link{
+    color: aliceblue !important;
+    font-family: "merivaregular";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.img{
+    width: 139px;
+    padding: 9px;;
+    padding-top: 16px;
+}
+.navbar-nav{
+    margin-left: 400px;
+
+    
+}
+.nah:hover{
+    color: chocolate;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.nav-item dropdown{
+margin-left: 50px !important;
+}
+
+.dropdown-menu{
+    background-color: rgb(224, 93, 0);
+    width: 300px;
+}
+.mlogo{
+    background-image: url("images/mainlogog.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 660px;
+}
+.bl{
+    background-color: black;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    position: relative;
+}
+.img{
+    width: 190px;
+}
+.para{
+    
+    align-items: center;
+     color: rgb(250, 250, 250);
+     position: absolute;
+     top: 300px;
+     left: 240px;
+     font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 80px;
+    
+}
+.para2{
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+
+}
+.a{
+    margin:100px ;
+    margin-top: 180px;
+}
+.p{
+    padding-left: 5px;
+    font-size: 30px;
+}
+.img-fizz{
+    background-image: url("images/fizzl.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 800px;
+}
+
+.li{
+    font-size: 30px;
+}
+/* p{
+    
+    
+    font-family: "merivaregular";
+    font-size: 14px;
+    line-height: 1.2;
+    color: #0a0b27;
+    text-align: left;
+   padding: 50px;
+} */
+ .c-1{
+    margin: 60px;
+    font-family: "merivaregular";
+    font-size: 14px;
+    line-height: 1.2;
+    color: #0a0b27;
+    text-align: left;
+ }
+ 
+ span:hover{
+    text-decoration: underline;
+    color: rgb(224, 93, 0);
+    
+ }
+ .rotate-image{
+    animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes  rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
